@@ -15,12 +15,10 @@ Prerequisites:
    
 # Running the Application
 
-1. Clone the backend repo 
+1. Clone the backend repo
 
-
-      git clone https://github.com/charuzur/KentWardrobe-Backend
-   
-      cd kent-wardrobe-backend
+        git clone https://github.com/charuzur/KentWardrobe-Backend
+        cd kent-wardrobe-backend
 
 
 2. Build and Run 
