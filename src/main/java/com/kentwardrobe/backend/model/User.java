@@ -26,7 +26,9 @@ public class User {
     private String profileImage;
 
     // --- NEW FIELD: ROLE ---
-    private String role;
+    // Replace your current role line with this:
+    @Column(name = "role", nullable = false)
+    private String role = "shopper";
 
     // --- GETTERS AND SETTERS ---
     public Long getId() { return id; }
@@ -49,6 +51,10 @@ public class User {
     public void setProfileImage(String profileImage) { this.profileImage = profileImage; }
 
     // New Getter/Setter for Role
-    public String getRole() { return role; }
-    public void setRole(String role) { this.role = role; }
+    public String getRole() {
+        return (role == null || role.isEmpty()) ? "shopper" : role;
+    }
+    public void setRole(String role) {
+        this.role = role;
+    }
 }
