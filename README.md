@@ -1,28 +1,31 @@
-📄 README.md (Backend Repository)
-⚙️ Kent's Wardrobe - Spring Boot API
+# 📄 README.md (Backend Repository)
+
+# ⚙️ Kent's Wardrobe - Spring Boot API
 This is the backend service for Kent's Wardrobe, providing RESTful APIs for user authentication, product management, and wishlist functionality.
 
-🚀 Server Setup
-1. Prerequisites
-   Java JDK 17 (or 22)
+# 🚀 Server Setup
+Prerequisites:
 
-Maven 3.8+
+      Java JDK 17 (or 22)
+      Maven 3.8+
+      TiDB Cloud Database
 
-TiDB Cloud Database
+# Database Connection (Important)
+   We are using a Shared TiDB Cloud Cluster. 
+   
+# Running the Application
 
-2. Database Connection (Important)
-   We are using a Shared TiDB Cloud Cluster.
+1. Clone the backend repo 
 
-[!IMPORTANT]
-Action Required: Please message Charles directly to get the latest spring.datasource.password. Do not commit the actual password to GitHub.
 
-Running the Application
+      git clone https://github.com/charuzur/KentWardrobe-Backend
+   
+      cd kent-wardrobe-backend
 
-# Clone the backend repo
-git clone https://github.com/charuzur/KentWardrobe-Backend
-cd kent-wardrobe-backend
 
-# Build and Run
-mvn spring-boot:run
+2. Build and Run 
+         
+       mvn spring-boot:run
+
 
 The server will start at: http://localhost:8080
