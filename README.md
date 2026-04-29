@@ -19,7 +19,7 @@ Action Required: Please message Charles directly to get the latest spring.dataso
 Running the Application
 
 # Clone the backend repo
-git clone https://github.com/your-username/kent-wardrobe-backend.git
+git clone https://github.com/charuzur/KentWardrobe-Backend
 cd kent-wardrobe-backend
 
 # Build and Run
